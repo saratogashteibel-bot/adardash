@@ -40,6 +40,13 @@ create policy "Open notes" on notes for all using (true) with check (true);
 
 -- Seed some starter entities (edit these to match Adar Global)
 insert into entities (name, type, color) values
+  ('E-Commerce', 'Division', 0),
+  ('US Real Estate', 'Division', 1),
+  ('Canadian Real Estate', 'Division', 2),
+  ('Misc.', 'General', 3),
+  ('Message for Motche Shloime', 'Direct', 4),
+  ('Message for Motty', 'Direct', 5),
+  ('Message for Jonathan', 'Direct', 6);
   ('Operations', 'Department', 0),
   ('Sales', 'Department', 1),
   ('Finance', 'Department', 2),
