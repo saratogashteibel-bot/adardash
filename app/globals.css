@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --surface2: #242424;
+  --border: #2e2e2e;
+  --text: #f0f0f0;
+  --muted: #888;
+  --accent: #e8c547;
+  --accent2: #e8844a;
+  --radius: 14px;
+  --font: 'DM Sans', sans-serif;
+  --mono: 'DM Mono', monospace;
+
+  --c0: #e8c547; --c0t: #0f0d00;
+  --c1: #5ee8a0; --c1t: #001f0d;
+  --c2: #e87a5e; --c2t: #1f0600;
+  --c3: #7ab4e8; --c3t: #00101f;
+  --c4: #c47ae8; --c4t: #150020;
+  --c5: #e8a07a; --c5t: #1f0a00;
+}
+
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+
+button { font-family: var(--font); cursor: pointer; border: none; background: none; }
+input, textarea { font-family: var(--font); }
+textarea { resize: none; }
